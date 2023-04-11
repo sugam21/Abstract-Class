@@ -1,44 +1,44 @@
 public class Input {
-    private int lengthRadius;
-    private int breadth;
-    private int height;
+    private double lengthRadius;
+    private double breadthHeight;
+    private double height;
 
 
     // This is a constructor for Circle and Sphere
     // Rectangle, Square, Sphere, Cylinder, and Pyramid.
-public Input(int lengthRadius)
+public Input(double lengthRadius)
 {
     this.lengthRadius = lengthRadius;
 }
     // This is a constructor for rectangle
-public Input(int length, int breadth)
+public Input(double length, double breadthHeight)
 {
     this(length);
-    this.breadth = breadth;
+    this.breadthHeight = breadthHeight;
 }
-public Input(int length, int breadth, int height )
+public Input(double length, double breadth, double height )
 {
     this(length,breadth);
     this.height=height;
 
 }
-    public int getBreadth() {
-        return breadth;
+    public double getBreadth() {
+        return breadthHeight;
     }
 
     public void setBreadth(int breadth) {
-        this.breadth = breadth;
+        this.breadthHeight = breadth;
     }
 
-    public int getHeight() {
+    public double getBreadthHeight() {
         return height;
     }
 
     public void setHeight(int height) {
-        this.height = height;
+        this.breadthHeight = height;
     }
 
-    public int getLengthRadius() {
+    public double getLengthRadius() {
         return lengthRadius;
     }
 
